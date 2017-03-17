@@ -30,6 +30,10 @@ p {
 	margin: auto;
 }
 
+#rooms-table {
+  display: none;
+}
+
 .center-block {
   display: block;
   margin-left: auto;
