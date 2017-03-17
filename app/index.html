@@ -5,17 +5,18 @@
 		<title></title>
 		<header> List of Available Andelans Rooms</header>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-		<script type="scripts/getRooms.js"></script>
-		<script type="scripts/main.js"></script>
+		<script src="scripts/getRooms.js"></script>
+		<script src="scripts/main.js"></script>
 	</head>
 	<body>
 		<form>
 				<label> Please select from the option :</label>
 				<br>
 				<select id="choose-room-type">
-					<option value="meeting">Meeting Room</option>
+					<option value="default">Choose a Room Type</option>
+					<option value="meetings">Meeting Room</option>
 					<option value="games">Games Room</option>
-					<option value="quite-rm">Quite Room</option>
+					<option value="quiet-time">Quiet Room</option>
 					<option value="learning">Learning Room</option>
 					<option value="working">Working Room</option> 
 				</select>
