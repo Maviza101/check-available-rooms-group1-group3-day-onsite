@@ -26,9 +26,11 @@ $(document).ready(function() {
       var roomAvailabilityCell = $('<td>');
       if (isRoomAvailable) {
         roomAvailabilityCell.text('Available');
+        roomAvailabilityCell.attr('class', 'alert-success');
       }
       else {
         roomAvailabilityCell.text('Not available');
+        roomAvailabilityCell.attr('class', 'alert-danger');
       }
 
       tableRow.append(roomNameCell);
