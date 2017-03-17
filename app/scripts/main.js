@@ -1,14 +1,14 @@
 'use strict';
 
 $(document).ready(function() {
-  $('#chooseRoomType').on('click', 'input', function() {
+  $('#choose-room-type').on('change', function(event) {
     var target = $('#rooms-available');
-    target.empty();
 
-    var roomType = this.val();
-    if (roomType == '') {
+    var roomType = this.value;
+    if (roomType == 'default') {
       return;
     }
+    target.empty();
     var rooms = getRooms(roomType);
     for (var i = 0; i < rooms.length; i++) {
       var room = rooms[i];
