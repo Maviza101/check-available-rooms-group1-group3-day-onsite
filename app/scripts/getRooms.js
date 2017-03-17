@@ -24,17 +24,21 @@ function getRooms (type) {
 			return meetings;
 			break;
 
-	    case "games":
-	    	return games;
-	    	break;
+    case "games":
+    	return games;
+    	break;
 
-	    case "learning":
-	    	return learning;
-	    	break;
+    case "learning":
+    	return learning;
+    	break;
 
-	    case "working":
-	    	return working;
-	    	break;
+    case "working":
+    	return working;
+    	break;
+
+    case "quiet-time":
+    	return working;
+    	break;
 
 
 	}
