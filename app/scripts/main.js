@@ -6,8 +6,14 @@ $(document).ready(function() {
 
     var roomType = this.value;
     if (roomType == 'default') {
+      $('#rooms-table').hide();
       return;
     }
+    else {
+      $('#rooms-table').show();
+      console.log("got here");
+    }
+
     target.empty();
     var rooms = getRooms(roomType);
     for (var i = 0; i < rooms.length; i++) {
