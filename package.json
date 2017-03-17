@@ -1,0 +1,23 @@
+{
+  "name": "check-available-rooms-group1-group3-day-onsite",
+  "version": "1.0.0",
+  "description": "A web app Andelans can use to search for available rooms based on type.",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jasmine tests/*[sS]pec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maviza101/check-available-rooms-group1-group3-day-onsite.git"
+  },
+  "author": "Groups 1 and 3, Andela Bootcamp 20",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Maviza101/check-available-rooms-group1-group3-day-onsite/issues"
+  },
+  "homepage": "https://github.com/Maviza101/check-available-rooms-group1-group3-day-onsite",
+  "dependencies": {
+    "jasmine": "^2.4.1"
+  }
